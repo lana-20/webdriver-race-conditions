@@ -38,7 +38,7 @@ There are 3 different strategies we can use to teach our scripts how to wait for
 - Poll for the app state using client-side methods.
 - Check for any state which can be determined using WebDriver functionality.
 - Polling functionality is built into the [Python] client on a class called [WebDriverWait](https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.wait.html#module-selenium.webdriver.support.wait) (*selenium.webdriver.support.wait.WebDriverWait*).
-- WebDriverWaits have an <code>until()</code> method which takes an [Expected Condition](https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html#module-selenium.webdriver.support.expected_conditions) (*selenium.webdriver.support.expected_conditions*).
+- WebDriverWaits have an <code>until()</code> method which takes an [Expected Conditions](https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html#module-selenium.webdriver.support.expected_conditions) (*selenium.webdriver.support.expected_conditions*).
 
 ### Expected Conditions
 
